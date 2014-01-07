@@ -1,0 +1,15 @@
+Problem Description
+
+Given a list of presents, pack them in Santa's sleigh as compactly as possible and in the best order possible.
+
+The sleigh and presents are discretized and described in units of the fundamental length unit ℓ. The sleigh is 1000 x 1000 with infinite vertical extent as needed by your highest placed present. The cells of the sleigh go from 1 to 1000 for the length and width, and 1 to infinity in height.
+
+Presents come in random sizes and are represented by their extent in the x, y, and z dimensions. Each present has a PresentId, a number which determines the order in which it is to be delivered. Ideally, Present 1 is to be delivered first, Present 2 second, etc. 
+
+PresentId,Dimension1,Dimension2,Dimension3
+1,2,5,3
+2,243,207,73
+
+Present 1 is 2 x 5 x 3 ℓ3 and Present 2 is 243 x 207 x 73 ℓ3. Presents can be packed in any orientation provided they are parallel and perpendicular to the x-y-z axes, meaning they can be rotated in any direction by multiples of 90∘ but not, for example, by 60∘. 
+
+Please see the evaluation page to learn how your packing configurations will be scored and for the submission file schema.
